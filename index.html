@@ -27,11 +27,20 @@
                     <input type="password" placeholder="**********">
                 </label>
                 <br>
-                <button class="form-button" ype="submit">Зарегистрироваться</button>
-            </form>
+                <button class="form-button" type="button" onclick="chertEblivyi()">Зарегистрироваться</button>
+            </form>           
         </div>
         <img src="email-picture.jpg" alt="email-picture" class="email-picture">
     </div>
 </body>
+
+<script>
+    function chertEblivyi(){
+        let div = document.createElement('div');
+        div.className = "alert";
+        div.innerHTML = '<iframe width="28%": height="280px" src="https://www.youtube.com/embed/TMhiOY4CEJo" frameborder="0" allow="accelerometer; autoplay="1"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+        document.body.append(div);
+    }
+</script>
 
 </html>
