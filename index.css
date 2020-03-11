@@ -1,0 +1,30 @@
+.form-body {
+    background-color: #E5E5E5;
+}
+
+.form-bg {
+    position: absolute;
+    width: 840px;
+    height: 599px;
+    left: 30%;
+    top: 151px;
+    background: #F2F2F4;
+    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.form-register{
+    position: absolute;
+    width: 420px;
+    height: 599px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+}
+
+.email-picture {
+    margin-left: auto;
+    width: 50%;
+    height: 75%;
+}
