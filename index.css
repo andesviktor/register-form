@@ -1,5 +1,6 @@
 .form-body {
-    background-color: #E5E5E5;
+    background-color: #E3E8F2;
+    ;
 }
 
 .form-bg {
@@ -14,7 +15,7 @@
     align-items: center;
 }
 
-.form-register{
+.form-register {
     position: absolute;
     width: 420px;
     height: 599px;
@@ -27,4 +28,57 @@
     margin-left: auto;
     width: 50%;
     height: 75%;
+}
+
+.form-form {
+    margin-left: 65px;
+    margin-top: 58px;
+}
+
+.form-h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #425984;
+}
+
+.form-name-text,
+.form-email-text,
+.form-password-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #8C96AA;
+    margin-bottom: 10px;
+}
+
+.form-form input {
+    font-family: Open Sans;
+    height: 52px;
+    width: 82%;
+    border: 1px solid #EDE6E6;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: 14px;
+    padding-left: 17px;
+    color: #B5BCC9;
+    ;
+}
+
+.form-button {
+    background: #007DB8;
+    border-radius: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 292px;
+    height: 52px;
+    margin-top: 77.5px;
+    color: #FFFFFF;
+    border: none;
 }

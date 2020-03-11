@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
-<body class = "form-body">
+
+<body class="form-body">
     <div class="form-bg">
-        <div class="form-register"></div>
-        <img src="email-picture.jpg" alt="email-picture"
-        class="email-picture">
+        <div class="form-register">
+            <form class="form-form">
+                <h1 class="form-h1">Зарегистрируйтесь</h1>
+                <label>
+                    <p class="form-name-text">Введите ваше имя</p>
+                    <input type="username" placeholder="Денис Черных">
+                </label>
+                <label>
+                    <p class="form-email-text">Введите ваше e-mail</p>
+                    <input type="email" placeholder="email@gmail.com">
+                </label>
+                <label>
+                    <p class="form-password-text">Введите ваш пароль</p>
+                    <input type="password" placeholder="**********">
+                </label>
+                <br>
+                <button class="form-button" ype="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+        <img src="email-picture.jpg" alt="email-picture" class="email-picture">
     </div>
 </body>
+
 </html>
